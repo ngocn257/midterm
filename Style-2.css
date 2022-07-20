@@ -1,0 +1,58 @@
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    div.container{
+        border: 5px solid skyblue;
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+    header{
+       background-color: aliceblue; 
+    }
+    .hero img{
+        width: 100%;
+    }
+    div.left, div.middle, div.right{
+        border: 3px dotted yellow;
+        width: 33%;
+    }
+    
+    aside img{
+        width: 100%
+    }
+    
+    aside{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    nav{
+        background-color: bisque;
+    
+    }
+    
+    ul{
+        text-align: center;
+    
+    }
+    li{
+        display: inline-block;
+        width: 250px;
+        border: 2px solid red;
+        line-height: 3em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-variant: small-caps;
+    
+    }
+    a{
+        color: green;
+        text-decoration: none;
+        border: 1px solid whitesmoke;
+        display: block;
+    
+    }
+    
